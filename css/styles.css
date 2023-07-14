@@ -383,7 +383,9 @@ body {
 
 .customers-section {
 }
+
 .customers-container {
+    width: 100%;
     margin-bottom: 120px;
 }
 
@@ -404,8 +406,9 @@ body {
     justify-content: center;
     gap: 24px;
 }
+
 .customers-item {
-    width: calc((100% - 24px) /6);
+    width: calc((100% - 24px)/6);
     height: 88px;
 }
 
