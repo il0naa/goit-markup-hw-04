@@ -382,15 +382,10 @@ body {
 
 
 .customers-section {
-}
-
-.customers-container {
-    width: 100%;
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .customers-title {
-    padding-top: 120px;
     padding-bottom: 72px;
     color: var(--dark);
     text-align: center;
@@ -408,14 +403,13 @@ body {
 }
 
 .customers-item {
-    width: calc((100% - 24px)/6);
+    width: calc((100% - 24px * 5) / 6);
     height: 88px;
 }
 
 .customers-link {
     width: 100%;
     height: 100%;
-    padding: 16px 32px;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -425,11 +419,11 @@ body {
 }
 
 .customers-icon {
-    fill: var(--subtle-text)
+    fill: var(--subtle-text);
 }
 
 .customers-icon:is(:hover, :focus) {
-    fill: var(--pressedstate)
+    fill: var(--pressedstate);
 }
 
 .customers-link:is(:hover, :focus) {
@@ -468,6 +462,41 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.footer-social-conteiner {
+}
+.footer-text-social {
+    color: var(--white-background);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 96px;
+    margin-bottom: 16px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-item {
+    display: flex;
+}
+.footer-item-icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-brand);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon {
+}
+
+
 
 /* ---------------- BUTTON --------------- */
 
