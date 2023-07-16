@@ -375,10 +375,11 @@ body {
     border-radius: 50%;
     background-color: var(--primary-brand);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: currentColor;
 }
 
 .social-icon {
-    fill: currentColor;
+    fill: var(--light);
 }
 
 .social-item-icon:is(:hover, :focus) {
