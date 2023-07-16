@@ -247,9 +247,6 @@ body {
     justify-content: center;
 }
 
-.advantages-icon {
-}
-
 .advantages-subtitle {
     color: var(--dark);
     font-size: 20px;
@@ -393,7 +390,6 @@ body {
 }
 
 .customers-title {
-    padding-bottom: 72px;
     color: var(--dark);
     text-align: center;
     font-size: 36px;
@@ -401,7 +397,9 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
+
 .customers-list {
     display: flex;
     align-items: center;
@@ -483,7 +481,6 @@ body {
 
 .footer-social-conteiner {
     display: block;
-    padding-left: 120px;
 }
 
 .footer-text-social {
@@ -627,6 +624,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--light);
     background-color: var(--primary-brand);
+    transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
