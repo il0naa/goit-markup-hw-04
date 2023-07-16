@@ -93,7 +93,7 @@ body {
     position: relative;
 }
 
-.header-menu-link.link .current {
+.header-menu .current {
     color: var(--pressedstate);
 }
 
